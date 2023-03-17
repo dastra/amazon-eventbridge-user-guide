@@ -144,13 +144,13 @@ Now that the source is configured, you can add optional filtering, optional enri
 
 ### \(Optional\) Configuring filtering<a name="pipes-sqs-configure-filtering"></a>
 
-You can add filtering to your pipe so that you’re only sending a subset of records from your Amazon MQ queue to the target\.
+You can add filtering to your pipe so that you’re only sending a subset of records from your Amazon SQS queue to the target\.
 
 **To configure filtering by using the console**
 
 1. Choose **Filtering**\.
 
-1. Under **Sample event \- optional**, you’ll see a sample Amazon MQ event you can use to build your event pattern, or you can enter your own event by choosing **Enter your own**\.
+1. Under **Sample event \- optional**, you’ll see a sample Amazon SQS event you can use to build your event pattern, or you can enter your own event by choosing **Enter your own**\.
 
 1. Under **Event pattern**, enter the event pattern that you want to filter the records\. For more information about building event patterns, see [Amazon EventBridge event patterns](eb-event-patterns.md)\.
 
